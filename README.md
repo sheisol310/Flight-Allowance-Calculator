@@ -15,5 +15,9 @@ To help EVA flight crew members calculate their allowance for flight operations.
 | MAC| here |
 | Windows | here |
 
+# Credits
+How to convert Python Script to Application and share to the public
+https://www.youtube.com/watch?v=DVOoHL2Bp_o
+
 # License
 [MIT License](LICENSE.txt)
