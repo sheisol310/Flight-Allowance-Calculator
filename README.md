@@ -16,8 +16,8 @@ To help EVA flight crew members calculate their allowance for flight operations.
 | Windows | here |
 
 # Credits
-How to convert Python Script to Application and share to the public
-https://www.youtube.com/watch?v=DVOoHL2Bp_o
+How to convert Python Script to Application and share to the public : <br>
+[Using py2app to make apps from Python](https://www.youtube.com/watch?v=DVOoHL2Bp_o)
 
 # License
 [MIT License](LICENSE.txt)
