@@ -23,24 +23,24 @@ def cal_perdiem():
     perdiem_amount.insert(0, p_money)
     perdiem_amount.config(state='disabled')
 
-
+# The numbers will be replaced by Dollar sign($) due to EVA non-disclosure agreement
 def cal_flight_allowance():
     total_hr = int(flight_hours.get())
     rate = int(flight_rate.get())
-    ensure_pay = rate * 60
-    if total_hr < 60:
+    ensure_pay = rate * $
+    if total_hr < $:
         f_money = ensure_pay
-    elif total_hr == 60:
-        f_money = 60 * rate * 1.25
-    elif 60 < total_hr <= 75:
-        f_money = rate * 1.25 * 60 + rate * 1.5 * (total_hr - 60)
-    elif 75 < total_hr <= 90:
-        f_money = rate * 1.25 * 60 + rate * 1.5 * 15 + rate * 1.75 * (total_hr - 75)
-    elif 90 < total_hr <= 100:
-        f_money = rate * 1.25 * 60 + rate * 1.5 * 15 + rate * 1.75 * 15 + rate * 2.5 * (total_hr - 90)
-    elif total_hr > 100:
-        f_money = rate * 1.25 * 60 + rate * 1.5 * 15 + rate * 1.75 * 15 + rate * 2.5 * 10 + rate * 3.5 * (
-                total_hr - 100)
+    elif total_hr == $:
+        f_money = $ * rate * $
+    elif 60 < total_hr <= $:
+        f_money = rate * 1.25 * $ + rate * $ * (total_hr - $)
+    elif $ < total_hr <= $:
+        f_money = rate * $ * $ + rate * $ * $ + rate * $ * (total_hr - $)
+    elif $ < total_hr <= $:
+        f_money = rate * 1.$ * $ + rate * $ * $ + rate * $ * $ + rate * $ * (total_hr - $)
+    elif total_hr > $:
+        f_money = rate * 1.25 * $ + rate * $ * $ + rate * $ * $ + rate * $ * $ + rate * $ * (
+                total_hr - $)
 
     flight_allow.config(state='normal')
     flight_allow.delete(0, tk.END)
