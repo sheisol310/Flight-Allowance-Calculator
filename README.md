@@ -1,4 +1,4 @@
-# EVA Allowance Calculater
+# EVA Allowance Calculator
 
 # Purpose
 To help EVA flight crew members calculate their allowance for flight operations.
